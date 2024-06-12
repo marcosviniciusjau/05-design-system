@@ -1,6 +1,9 @@
-import { ProfilePhotoContainer, ProfilePhotoImage } from './styles'
+import {
+  ProfilePhotoContainer,
+  ProfilePhotoImage,
+  ProfilePhotoFallback,
+} from './styles'
 import { User } from 'phosphor-react'
-import { AvatarFallback } from '@radix-ui/react-avatar'
 import { ComponentProps } from 'react'
 
 export interface ProfilePhotoProps
@@ -10,9 +13,9 @@ export function ProfilePhoto(props: ProfilePhotoProps) {
     <ProfilePhotoContainer>
       <ProfilePhotoImage {...props} />
 
-      <AvatarFallback delayMs={600}>
+      <ProfilePhotoFallback delayMs={600}>
         <User />
-      </AvatarFallback>
+      </ProfilePhotoFallback>
     </ProfilePhotoContainer>
   )
 }

@@ -31577,11 +31577,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx2 = jsxWithValidationDynamic;
-        var jsxs2 = jsxWithValidationStatic;
+        var jsx3 = jsxWithValidationDynamic;
+        var jsxs3 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx2;
-        exports.jsxs = jsxs2;
+        exports.jsx = jsx3;
+        exports.jsxs = jsxs3;
       })();
     }
   }
@@ -32285,14 +32285,186 @@ var import_jsx_runtime = __toESM(require_jsx_runtime());
 function ProfilePhoto(props) {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(ProfilePhotoContainer, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ProfilePhotoImage, __spreadValues({}, props)),
-    /* @__PURE__ */ (0, import_jsx_runtime.jsx)($cddcb0b647441e34$export$69fffb6a9571fbfe, { delayMs: 600, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(User_esm_default, {}) })
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ProfilePhotoFallback, { delayMs: 600, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(User_esm_default, {}) })
   ] });
 }
+
+// src/components/Button.tsx
+var Button = styled("button", {
+  all: "unset",
+  borderRadius: "$sm",
+  fontSize: "$sm",
+  fontWeight: "$medium",
+  fontFamily: "$default",
+  textAlign: "center",
+  minWidth: 120,
+  boxSizing: "border-box",
+  padding: "0 $4",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  gap: "$2",
+  cursor: "pointer",
+  svg: {
+    width: "$4",
+    height: "$4"
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  variants: {
+    variant: {
+      primary: {
+        color: "$white",
+        background: "$ignite500",
+        "&:not(:disabled):hover": {
+          background: "$ignite300"
+        },
+        "&:disabled": {
+          background: "$gray200"
+        }
+      },
+      secondary: {
+        color: "$ignite300",
+        border: "2px solid $ignite500",
+        "&:not(:disabled):hover": {
+          background: "$ignite500",
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray200",
+          borderColor: "$gray200"
+        }
+      },
+      tertiary: {
+        color: "$gray100",
+        "&:not(:disabled):hover": {
+          color: "$white"
+        },
+        "&:disabled": {
+          color: "$gray600"
+        }
+      }
+    },
+    size: {
+      sm: {
+        height: 38
+      },
+      md: {
+        height: 46
+      }
+    }
+  },
+  defaultVariants: {
+    variant: "primary",
+    size: "md"
+  }
+});
+
+// src/components/TextInput/styles.ts
+var TextInputContainer = styled("div", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  display: "flex",
+  alignItems: "baseline",
+  "&:has(input:focus)": {
+    borderColor: "$ignite300"
+  },
+  "&:has(input:disabled)": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  }
+});
+var Prefix = styled("span", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$gray400",
+  fontWeight: "$regular"
+});
+var Input = styled("input", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  background: "transparent",
+  border: 0,
+  width: "100%",
+  "&:focus": {
+    outline: 0
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  "&:placeholder": {
+    color: "$gray400"
+  }
+});
+var InputWrapper = styled("div", {
+  position: "relative",
+  overflow: "hidden",
+  borderRadius: "$sm",
+  border: "2px solid $gray300",
+  display: "flex",
+  alignItems: "center",
+  "&:has(input:focus)": {
+    borderColor: "$ignite300"
+  },
+  "&:has(input:disabled)": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  }
+});
+var RightText = styled("span", {
+  color: "$gray400",
+  fontSize: "$sm"
+});
+
+// src/components/TextInput/index.tsx
+var import_jsx_runtime2 = __toESM(require_jsx_runtime());
+function TextInput(_a) {
+  var _b = _a, { prefix } = _b, props = __objRest(_b, ["prefix"]);
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(TextInputContainer, { children: [
+    !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, { children: prefix }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, __spreadValues({}, props))
+  ] });
+}
+
+// src/components/TextArea.tsx
+var TextArea = styled("textarea", {
+  backgroundColor: "$gray900",
+  padding: "$3 $4",
+  borderRadius: "$sm",
+  boxSizing: "border-box",
+  border: "2px solid $gray900",
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  resize: "vertical",
+  minHeight: 80,
+  "&:focus": {
+    outline: 0,
+    borderColor: "$ignite300"
+  },
+  "&:disabled": {
+    opacity: 0.5,
+    cursor: "not-allowed"
+  },
+  "&:placeholder": {
+    color: "$gray400"
+  }
+});
 export {
   Box,
+  Button,
   Heading,
   ProfilePhoto,
-  Text
+  Text,
+  TextArea,
+  TextInput
 };
 /*! Bundled license information:
 
