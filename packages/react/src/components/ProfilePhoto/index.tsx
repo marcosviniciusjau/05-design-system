@@ -19,3 +19,5 @@ export function ProfilePhoto(props: ProfilePhotoProps) {
     </ProfilePhotoContainer>
   )
 }
+
+ProfilePhoto.displayName = 'ProfilePhoto'

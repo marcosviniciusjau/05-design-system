@@ -2,11 +2,18 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { ProfilePhoto, ProfilePhotoProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Data Display/ProfilePhoto',
+  title: 'Data display/ProfilePhoto',
   component: ProfilePhoto,
   args: {
-    src: 'https://github.com/marcosviniciusjau.png',
-    alt: 'Marcos Vinicius',
+    src: 'https://github.com/diego3g.png',
+    alt: 'Diego Fernandes',
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<ProfilePhotoProps>
 

@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Checkbox, CheckboxProps, Text } from '@ignite-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Form/Text Input',
+  title: 'Form/Checkbox',
   component: Checkbox,
   args: {},
   decorators: [
@@ -13,7 +13,7 @@ export default {
           css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
         >
           {Story()}
-          <Text size="sm">Accept terms</Text>
+          <Text size="sm">Accept terms of use</Text>
         </Box>
       )
     },
