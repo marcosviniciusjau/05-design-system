@@ -6,6 +6,7 @@
   "scripts": {
     "build-vite": "tsc && vite build",
     "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages",
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
@@ -13,8 +14,8 @@
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
+    "@phosphor-icons/react": "^2.1.6",
     "@storybook/addon-a11y": "^8.1.7",
-    "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -28,6 +29,7 @@
     "@storybook/blocks": "^8.1.6",
     "@storybook/react": "^8.1.6",
     "@storybook/react-vite": "^8.1.6",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.1.6",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",

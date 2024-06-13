@@ -1,6 +1,7 @@
-import { Check } from 'phosphor-react'
+import { Check } from '@phosphor-icons/react/dist/ssr'
 import { CheckboxContainer, CheckboxIndicator } from './styles'
 import { ComponentProps } from 'react'
+
 export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {}
 export function Checkbox(props: CheckboxProps) {

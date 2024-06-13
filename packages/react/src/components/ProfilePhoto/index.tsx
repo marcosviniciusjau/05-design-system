@@ -3,7 +3,7 @@ import {
   ProfilePhotoImage,
   ProfilePhotoFallback,
 } from './styles'
-import { User } from 'phosphor-react'
+import { User } from '@phosphor-icons/react/dist/ssr'
 import { ComponentProps } from 'react'
 
 export interface ProfilePhotoProps
