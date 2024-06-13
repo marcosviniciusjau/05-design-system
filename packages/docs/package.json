@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build-vite": "tsc && vite build",
-    "build": "build-storybook ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start-storybook -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "dev": "storybook dev -p 6006"
+    "build": "build-storybook"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
