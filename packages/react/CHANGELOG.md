@@ -1,5 +1,11 @@
 # @marcosvinicius-ignite-ui/react
 
+## 1.0.2
+
+### Patch Changes
+
+- Add some sufixes to future projects
+
 ## 1.0.1
 
 ### Patch Changes
