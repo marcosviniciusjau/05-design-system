@@ -26,7 +26,6 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -235,7 +234,6 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -444,7 +442,6 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -651,7 +648,6 @@ declare const ProfilePhotoImage: _stitches_react_types_styled_component.StyledCo
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -865,7 +861,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1072,7 +1067,6 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1281,7 +1275,6 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1487,7 +1480,6 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1709,7 +1701,6 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1922,7 +1913,6 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -2127,7 +2117,6 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -2347,7 +2336,6 @@ declare const globalCss: <Styles extends {
             ignite500: string;
             ignite700: string;
             ignite900: string;
-            test: string;
         };
         fontSizes: {
             xxs: string;
@@ -2550,7 +2538,6 @@ declare const globalCss: <Styles extends {
         ignite500: string;
         ignite700: string;
         ignite900: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -2754,7 +2741,6 @@ declare const keyframes: (style: {
             ignite500: string;
             ignite700: string;
             ignite900: string;
-            test: string;
         };
         fontSizes: {
             xxs: string;
@@ -2965,7 +2951,6 @@ declare const theme: string & {
         ignite500: _stitches_react_types_theme.Token<"ignite500", string, "colors", "">;
         ignite700: _stitches_react_types_theme.Token<"ignite700", string, "colors", "">;
         ignite900: _stitches_react_types_theme.Token<"ignite900", string, "colors", "">;
-        test: _stitches_react_types_theme.Token<"test", string, "colors", "">;
     };
     fontSizes: {
         xxs: _stitches_react_types_theme.Token<"xxs", string, "fontSizes", "">;
@@ -3039,7 +3024,6 @@ declare const createTheme: <Argument0 extends string | ({
         ignite500?: string | number | boolean | undefined;
         ignite700?: string | number | boolean | undefined;
         ignite900?: string | number | boolean | undefined;
-        test?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3117,7 +3101,6 @@ declare const createTheme: <Argument0 extends string | ({
         ignite500?: string | number | boolean | undefined;
         ignite700?: string | number | boolean | undefined;
         ignite900?: string | number | boolean | undefined;
-        test?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3202,7 +3185,6 @@ declare const config: {
             ignite500: string;
             ignite700: string;
             ignite900: string;
-            test: string;
         };
         fontSizes: {
             xxs: string;
