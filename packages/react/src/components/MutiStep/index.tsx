@@ -19,4 +19,4 @@ export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
   )
 }
 
-MultiStep.displayName = 'Multi Step'
+MultiStep.displayName = 'MultiStep'
