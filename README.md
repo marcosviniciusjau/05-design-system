@@ -1,10 +1,9 @@
-# This is the design system of ignite-ui, learned on Rocketseat. This is the components:
-# SURFACE
+# This is the design system of ignite-ui, learned on Rocketseat. This is the components of the application:
 
+# SURFACE
 Box
 
 # FORM
-
 Button
 
 Checkbox
@@ -15,12 +14,10 @@ Text Area
 
 Text Input
 
-$ TYPOGRAPHY
-
+# TYPOGRAPHY
 Heading
 
 Text
 
 # DATA DISPLAY
-
 ProfilePhoto
