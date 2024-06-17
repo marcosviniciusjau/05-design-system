@@ -308,6 +308,9 @@ var Button = styled("button", {
 });
 Button.displayName = "Button";
 
+// src/components/TextInput/index.tsx
+import { forwardRef } from "react";
+
 // src/components/TextInput/styles.ts
 var TextInputContainer = styled("div", {
   backgroundColor: "$gray900",
@@ -379,18 +382,17 @@ var RightText = styled("span", {
 });
 
 // src/components/TextInput/index.tsx
-import { forwardRef } from "react";
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 var TextInput = forwardRef(
   (_a, ref) => {
-    var _b = _a, { prefix } = _b, props = __objRest(_b, ["prefix"]);
-    return /* @__PURE__ */ jsxs2(TextInputContainer, { children: [
+    var _b = _a, { prefix, containerProps } = _b, props = __objRest(_b, ["prefix", "containerProps"]);
+    return /* @__PURE__ */ jsxs2(TextInputContainer, __spreadProps(__spreadValues({}, containerProps), { children: [
       !!prefix && /* @__PURE__ */ jsx2(Prefix, { children: prefix }),
       /* @__PURE__ */ jsx2(Input, __spreadValues({ ref }, props))
-    ] });
+    ] }));
   }
 );
-TextInput.displayName = "Text Input";
+TextInput.displayName = "TextInput";
 
 // src/components/TextArea.tsx
 var TextArea = styled("textarea", {

@@ -1,5 +1,6 @@
+import { ComponentProps, ElementRef, forwardRef } from 'react'
+
 import { Input, Prefix, TextInputContainer } from './styles'
-import { ComponentProps, forwardRef, ElementRef } from 'react'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
@@ -17,4 +18,4 @@ export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
   },
 )
 
-TextInput.displayName = 'Text Input'
+TextInput.displayName = 'TextInput'
