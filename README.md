@@ -1,4 +1,4 @@
-# This is the design system of ignite-ui, learned on Rocketseat. This is the components of the application:
+# This is the design system of ignite-ui, learned at Rocketseat. These are the components of the application:
 
 # SURFACE
 Box
