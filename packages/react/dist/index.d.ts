@@ -22,10 +22,10 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -230,10 +230,10 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -438,10 +438,10 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -644,10 +644,10 @@ declare const ProfilePhotoImage: _stitches_react_types_styled_component.StyledCo
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -857,10 +857,10 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -1065,10 +1065,10 @@ declare const TextInputContainer: _stitches_react_types_styled_component.StyledC
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -1267,10 +1267,10 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -1461,6 +1461,7 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
 interface TextInputProps extends ComponentProps<typeof Input> {
     prefix?: string;
     containerProps?: ComponentProps<typeof TextInputContainer>;
+    mask?: string;
 }
 declare const TextInput: react.ForwardRefExoticComponent<Omit<TextInputProps, "ref"> & react.RefAttributes<HTMLInputElement>>;
 
@@ -1476,10 +1477,10 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -1681,10 +1682,10 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -1902,10 +1903,10 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -2114,10 +2115,10 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -2318,10 +2319,10 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -2537,10 +2538,10 @@ declare const globalCss: <Styles extends {
             gray700: string;
             gray800: string;
             gray900: string;
-            ignite300: string;
-            ignite500: string;
-            ignite700: string;
-            ignite900: string;
+            blue300: string;
+            blue500: string;
+            blue700: string;
+            blue900: string;
         };
         fontSizes: {
             xxs: string;
@@ -2739,10 +2740,10 @@ declare const globalCss: <Styles extends {
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        blue300: string;
+        blue500: string;
+        blue700: string;
+        blue900: string;
     };
     fontSizes: {
         xxs: string;
@@ -2942,10 +2943,10 @@ declare const keyframes: (style: {
             gray700: string;
             gray800: string;
             gray900: string;
-            ignite300: string;
-            ignite500: string;
-            ignite700: string;
-            ignite900: string;
+            blue300: string;
+            blue500: string;
+            blue700: string;
+            blue900: string;
         };
         fontSizes: {
             xxs: string;
@@ -3152,10 +3153,10 @@ declare const theme: string & {
         gray700: _stitches_react_types_theme.Token<"gray700", string, "colors", "">;
         gray800: _stitches_react_types_theme.Token<"gray800", string, "colors", "">;
         gray900: _stitches_react_types_theme.Token<"gray900", string, "colors", "">;
-        ignite300: _stitches_react_types_theme.Token<"ignite300", string, "colors", "">;
-        ignite500: _stitches_react_types_theme.Token<"ignite500", string, "colors", "">;
-        ignite700: _stitches_react_types_theme.Token<"ignite700", string, "colors", "">;
-        ignite900: _stitches_react_types_theme.Token<"ignite900", string, "colors", "">;
+        blue300: _stitches_react_types_theme.Token<"blue300", string, "colors", "">;
+        blue500: _stitches_react_types_theme.Token<"blue500", string, "colors", "">;
+        blue700: _stitches_react_types_theme.Token<"blue700", string, "colors", "">;
+        blue900: _stitches_react_types_theme.Token<"blue900", string, "colors", "">;
     };
     fontSizes: {
         xxs: _stitches_react_types_theme.Token<"xxs", string, "fontSizes", "">;
@@ -3225,10 +3226,10 @@ declare const createTheme: <Argument0 extends string | ({
         gray700?: string | number | boolean | undefined;
         gray800?: string | number | boolean | undefined;
         gray900?: string | number | boolean | undefined;
-        ignite300?: string | number | boolean | undefined;
-        ignite500?: string | number | boolean | undefined;
-        ignite700?: string | number | boolean | undefined;
-        ignite900?: string | number | boolean | undefined;
+        blue300?: string | number | boolean | undefined;
+        blue500?: string | number | boolean | undefined;
+        blue700?: string | number | boolean | undefined;
+        blue900?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3302,10 +3303,10 @@ declare const createTheme: <Argument0 extends string | ({
         gray700?: string | number | boolean | undefined;
         gray800?: string | number | boolean | undefined;
         gray900?: string | number | boolean | undefined;
-        ignite300?: string | number | boolean | undefined;
-        ignite500?: string | number | boolean | undefined;
-        ignite700?: string | number | boolean | undefined;
-        ignite900?: string | number | boolean | undefined;
+        blue300?: string | number | boolean | undefined;
+        blue500?: string | number | boolean | undefined;
+        blue700?: string | number | boolean | undefined;
+        blue900?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3386,10 +3387,10 @@ declare const config: {
             gray700: string;
             gray800: string;
             gray900: string;
-            ignite300: string;
-            ignite500: string;
-            ignite700: string;
-            ignite900: string;
+            blue300: string;
+            blue500: string;
+            blue700: string;
+            blue900: string;
         };
         fontSizes: {
             xxs: string;

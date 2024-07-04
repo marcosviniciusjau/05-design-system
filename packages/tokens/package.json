@@ -1,5 +1,5 @@
 {
-  "name": "@marcosvinicius-ignite-ui/tokens",
+  "name": "@marcosvinicius-design-system/tokens",
   "version": "1.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@marcosvinicius-ignite-ui/ts-config": "*",
-    "@marcosvinicius-ignite-ui/eslint-config": "*",
+    "@marcosvinicius-design-system/ts-config": "*",
+    "@marcosvinicius-design-system/eslint-config": "*",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5"
   }

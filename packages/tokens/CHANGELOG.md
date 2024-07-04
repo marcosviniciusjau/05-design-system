@@ -1,4 +1,4 @@
-# @marcosvinicius-ignite-ui/tokens
+# @marcosvinicius-design-system/tokens
 
 ## 1.1.0
 

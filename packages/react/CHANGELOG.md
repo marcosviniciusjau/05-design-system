@@ -1,4 +1,4 @@
-# @marcosvinicius-ignite-ui/react
+# @marcosvinicius-design-system/react
 
 ## 1.0.2
 

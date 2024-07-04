@@ -1,4 +1,4 @@
 {
-  "extends": "@marcosvinicius-ignite-ui/ts-config/react.json",
+  "extends": "@marcosvinicius-design-system/ts-config/react.json",
   "include": ["src", "../react/src/components/ProfilePhoto"],
 }

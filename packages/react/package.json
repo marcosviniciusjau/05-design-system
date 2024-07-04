@@ -1,5 +1,5 @@
 {
-  "name": "@marcosvinicius-ignite-ui/react",
+  "name": "@marcosvinicius-design-system/react",
   "version": "2.1.3",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -17,9 +17,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@marcosvinicius-ignite-ui/eslint-config": "*",
-    "@marcosvinicius-ignite-ui/tokens": "*",
-    "@marcosvinicius-ignite-ui/ts-config": "*",
+    "@marcosvinicius-design-system/eslint-config": "*",
+    "@marcosvinicius-design-system/tokens": "*",
+    "@marcosvinicius-design-system/ts-config": "*",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
