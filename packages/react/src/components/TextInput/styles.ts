@@ -20,7 +20,7 @@ export const TextInputContainer = styled('div', {
   },
 
   '&:has(input:focus)': {
-    borderColor: '$ignite300',
+    borderColor: '$blue300',
   },
   '&:has(input:disabled)': {
     opacity: 0.5,
@@ -65,7 +65,7 @@ export const InputWrapper = styled('div', {
   display: 'flex',
   alignItems: 'center',
   '&:has(input:focus)': {
-    borderColor: '$ignite300',
+    borderColor: '$blue300',
   },
   '&:has(input:disabled)': {
     opacity: 0.5,
