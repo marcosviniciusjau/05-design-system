@@ -1,4 +1,4 @@
-import { colors } from '@marcosvinicius-design-system/tokens'
+import { colors } from '@marcosvinicius_design-system/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

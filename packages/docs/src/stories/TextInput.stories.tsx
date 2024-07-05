@@ -4,7 +4,7 @@ import {
   Text,
   TextInput,
   TextInputProps,
-} from '@marcosvinicius-design-system/react'
+} from '@marcosvinicius_design-system/react'
 
 export default {
   title: 'Form/Text Input',

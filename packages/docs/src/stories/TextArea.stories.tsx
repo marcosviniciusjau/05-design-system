@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, TextArea, TextAreaProps, Text } from '@marcosvinicius-design-system/react'
+import { Box, TextArea, TextAreaProps, Text } from '@marcosvinicius_design-system/react'
 
 export default {
   title: 'Form/Text Area',

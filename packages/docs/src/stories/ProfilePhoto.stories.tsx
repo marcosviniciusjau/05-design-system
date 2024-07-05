@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { ProfilePhoto, ProfilePhotoProps } from '@marcosvinicius-design-system/react'
+import { ProfilePhoto, ProfilePhotoProps } from '@marcosvinicius_design-system/react'
 
 export default {
   title: 'Data display/ProfilePhoto',

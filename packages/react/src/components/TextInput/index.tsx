@@ -1,6 +1,5 @@
 import { ComponentProps, ElementRef, forwardRef } from 'react'
-import InputMask from 'react-input-mask'
-import { Input, Prefix, TextInputContainer } from './styles'
+import { Input, InputMasks, Prefix, TextInputContainer } from './styles'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
   prefix?: string
@@ -10,17 +9,15 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
   ({ prefix, containerProps, mask, ...props }, ref) => {
-    if (mask) {
-      return (
-        <TextInputContainer {...containerProps}>
-          <InputMask mask={mask} style={{ ...props }} />
-        </TextInputContainer>
-      )
-    }
     return (
       <TextInputContainer {...containerProps}>
         {!!prefix && <Prefix>{prefix}</Prefix>}
-        <Input ref={ref} {...props} />
+        {mask ? (
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          <InputMasks ref={ref as any} mask={mask} {...props} />
+        ) : (
+          <Input ref={ref} {...props} />
+        )}
       </TextInputContainer>
     )
   },

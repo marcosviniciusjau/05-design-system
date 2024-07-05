@@ -1,6 +1,6 @@
 {
-  "name": "@marcosvinicius-design-system/react",
-  "version": "2.1.3",
+  "name": "@marcosvinicius_design-system/react",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -17,9 +17,9 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@marcosvinicius-design-system/eslint-config": "*",
-    "@marcosvinicius-design-system/tokens": "*",
-    "@marcosvinicius-design-system/ts-config": "*",
+    "@marcosvinicius_design-system/eslint-config": "*",
+    "@marcosvinicius_design-system/tokens": "*",
+    "@marcosvinicius_design-system/ts-config": "*",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",

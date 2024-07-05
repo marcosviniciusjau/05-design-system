@@ -1,4 +1,4 @@
 {
-  "extends": "@marcosvinicius-design-system/ts-config/base.json",
+  "extends": "@marcosvinicius_design-system/ts-config/base.json",
   "include": ["src"],
 }

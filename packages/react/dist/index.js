@@ -30118,9 +30118,9 @@ Button.displayName = "Button";
 
 // src/components/TextInput/index.tsx
 var import_react2 = require("react");
-var import_react_input_mask = __toESM(require_react_input_mask());
 
 // src/components/TextInput/styles.ts
+var import_react_input_mask = __toESM(require_react_input_mask());
 var TextInputContainer = styled("div", {
   backgroundColor: "$gray900",
   padding: "$3 $4",
@@ -30170,6 +30170,24 @@ var Input = styled("input", {
     color: "$gray400"
   }
 });
+var InputMasks = styled(import_react_input_mask.default, {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  background: "transparent",
+  border: 0,
+  width: "100%",
+  "&:focus": {
+    outline: 0
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  "&::placeholder": {
+    color: "$gray400"
+  }
+});
 var InputWrapper = styled("div", {
   position: "relative",
   overflow: "hidden",
@@ -30195,12 +30213,12 @@ var import_jsx_runtime2 = require("react/jsx-runtime");
 var TextInput = (0, import_react2.forwardRef)(
   (_a, ref) => {
     var _b = _a, { prefix, containerProps, mask } = _b, props = __objRest(_b, ["prefix", "containerProps", "mask"]);
-    if (mask) {
-      return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(TextInputContainer, __spreadProps(__spreadValues({}, containerProps), { children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react_input_mask.default, { mask, style: __spreadValues({}, props) }) }));
-    }
     return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(TextInputContainer, __spreadProps(__spreadValues({}, containerProps), { children: [
       !!prefix && /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Prefix, { children: prefix }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, __spreadValues({ ref }, props))
+      mask ? (
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(InputMasks, __spreadValues({ ref, mask }, props))
+      ) : /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Input, __spreadValues({ ref }, props))
     ] }));
   }
 );

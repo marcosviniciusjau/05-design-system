@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@marcosvinicius-design-system/tokens'
+} from '@marcosvinicius_design-system/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

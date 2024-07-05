@@ -30094,10 +30094,10 @@ var Button = styled("button", {
 Button.displayName = "Button";
 
 // src/components/TextInput/index.tsx
-var import_react_input_mask = __toESM(require_react_input_mask());
 import { forwardRef } from "react";
 
 // src/components/TextInput/styles.ts
+var import_react_input_mask = __toESM(require_react_input_mask());
 var TextInputContainer = styled("div", {
   backgroundColor: "$gray900",
   padding: "$3 $4",
@@ -30147,6 +30147,24 @@ var Input = styled("input", {
     color: "$gray400"
   }
 });
+var InputMasks = styled(import_react_input_mask.default, {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  background: "transparent",
+  border: 0,
+  width: "100%",
+  "&:focus": {
+    outline: 0
+  },
+  "&:disabled": {
+    cursor: "not-allowed"
+  },
+  "&::placeholder": {
+    color: "$gray400"
+  }
+});
 var InputWrapper = styled("div", {
   position: "relative",
   overflow: "hidden",
@@ -30172,12 +30190,12 @@ import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 var TextInput = forwardRef(
   (_a, ref) => {
     var _b = _a, { prefix, containerProps, mask } = _b, props = __objRest(_b, ["prefix", "containerProps", "mask"]);
-    if (mask) {
-      return /* @__PURE__ */ jsx2(TextInputContainer, __spreadProps(__spreadValues({}, containerProps), { children: /* @__PURE__ */ jsx2(import_react_input_mask.default, { mask, style: __spreadValues({}, props) }) }));
-    }
     return /* @__PURE__ */ jsxs2(TextInputContainer, __spreadProps(__spreadValues({}, containerProps), { children: [
       !!prefix && /* @__PURE__ */ jsx2(Prefix, { children: prefix }),
-      /* @__PURE__ */ jsx2(Input, __spreadValues({ ref }, props))
+      mask ? (
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        /* @__PURE__ */ jsx2(InputMasks, __spreadValues({ ref, mask }, props))
+      ) : /* @__PURE__ */ jsx2(Input, __spreadValues({ ref }, props))
     ] }));
   }
 );
