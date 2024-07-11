@@ -7,8 +7,7 @@
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=!docs && npm publish"
+    "version-packages": "changeset version"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
