@@ -1,5 +1,5 @@
 import { styled } from '../../styles'
-import InputMask from 'react-input-mask'
+
 export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
   padding: '$3 $4',
@@ -56,27 +56,7 @@ export const Input = styled('input', {
     color: '$gray400',
   },
 })
-export const InputMasks = styled(InputMask, {
-  fontFamily: '$default',
-  fontSize: '$sm',
-  color: '$white',
-  fontWeight: '$regular',
-  background: 'transparent',
-  border: 0,
-  width: '100%',
 
-  '&:focus': {
-    outline: 0,
-  },
-
-  '&:disabled': {
-    cursor: 'not-allowed',
-  },
-
-  '&::placeholder': {
-    color: '$gray400',
-  },
-})
 export const InputWrapper = styled('div', {
   position: 'relative',
   overflow: 'hidden',
