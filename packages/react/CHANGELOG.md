@@ -1,4 +1,4 @@
-# @marcosvinicius_design-system/react
+# @marcos-vinicius-design-system/react
 
 ## 1.0.2
 

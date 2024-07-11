@@ -1,5 +1,5 @@
 {
-  "name": "@marcosvinicius_design-system/docs",
+  "name": "@marcos-vinicius-design-system/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,10 @@
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@marcosvinicius_design-system/eslint-config": "*",
-    "@marcosvinicius_design-system/react": "*",
-    "@marcosvinicius_design-system/tokens": "*",
-    "@marcosvinicius_design-system/ts-config": "*",
+    "@marcos-vinicius-design-system/eslint-config": "*",
+    "@marcos-vinicius-design-system/react": "*",
+    "@marcos-vinicius-design-system/tokens": "*",
+    "@marcos-vinicius-design-system/ts-config": "*",
     "@phosphor-icons/react": "^2.1.6",
     "@storybook/addon-a11y": "^8.1.7",
     "polished": "^4.3.1",

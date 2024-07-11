@@ -1,5 +1,5 @@
 {
-  "name": "@marcosvinicius_design-system/tokens",
+  "name": "@marcos-vinicius-design-system/tokens",
   "version": "1.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@marcosvinicius_design-system/ts-config": "*",
-    "@marcosvinicius_design-system/eslint-config": "*",
+    "@marcos-vinicius-design-system/ts-config": "*",
+    "@marcos-vinicius-design-system/eslint-config": "*",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5"
   }

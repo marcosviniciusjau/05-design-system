@@ -1,4 +1,4 @@
-# @marcosvinicius_design-system/tokens
+# @marcos-vinicius-design-system/tokens
 
 ## 1.1.0
 
