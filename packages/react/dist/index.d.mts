@@ -1461,7 +1461,6 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
 interface TextInputProps extends ComponentProps<typeof Input> {
     prefix?: string;
     containerProps?: ComponentProps<typeof TextInputContainer>;
-    mask?: string;
 }
 declare const TextInput: react.ForwardRefExoticComponent<Omit<TextInputProps, "ref"> & react.RefAttributes<HTMLInputElement>>;
 
